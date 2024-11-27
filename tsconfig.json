@@ -1,0 +1,16 @@
+{
+   "compilerOptions": {
+     "module": "commonjs",
+     "target": "es2016",
+     "outDir": "./dist",
+     "rootDir": "./src",
+     "strict": true,
+     "esModuleInterop": true,
+     "skipLibCheck": true,
+     "forceConsistentCasingInFileNames": true,
+     "emitDecoratorMetadata": true,
+     "experimentalDecorators": true
+   },
+   "include": ["src/**/*", "src/routes/__test__/login"]
+ }
+ 

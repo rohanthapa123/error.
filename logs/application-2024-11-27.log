@@ -1,0 +1,16 @@
+2024-11-27 04:37:45 +0000  [[32mINFO[39m] : 	function
+2024-11-27 04:37:45 +0000  [[34mDEBUG[39m] : 	Query: SELECT * FROM current_schema()
+2024-11-27 04:37:45 +0000  [[32mINFO[39m] : 	All classes found using provided glob pattern "src/entity/*.ts" : "src/entity/UserPrivateDetails.ts,src/entity/User.ts,src/entity/PermissionGroup.ts,src/entity/OtpTable.ts,src/entity/Message.ts,src/entity/KafkaError.ts,src/entity/Chat.ts"
+2024-11-27 04:37:46 +0000  [[31mERROR[39m] : Error: ⨯ Unable to compile TypeScript:
+src/entity/OtpTable.ts(2,26): error TS2307: Cannot find module '../services/password' or its corresponding type declarations.
+
+    at Object.<anonymous> (/mnt/d/Jungle/match-chat-ms/src/entity/OtpTable.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._compile (/mnt/d/Jungle/match-chat-ms/node_modules/source-map-support/source-map-support.js:521:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-6489131073786689.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-6489131073786689.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-6489131073786689.js:71:20)
+    at Object.nodeDevHook [as .ts] (/mnt/d/Jungle/match-chat-ms/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)

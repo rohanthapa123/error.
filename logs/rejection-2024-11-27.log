@@ -1,0 +1,2 @@
+2024-11-27 04:37:46 +0000  [[31mERROR[39m] : Error: Error connecting to db
+    at /mnt/d/Jungle/match-chat-ms/src/index.ts:26:11

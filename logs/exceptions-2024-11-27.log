@@ -1,0 +1,13 @@
+2024-11-27 04:42:19 +0000  [[31mERROR[39m] : Error: ⨯ Unable to compile TypeScript:
+src/app.ts(89,34): error TS2554: Expected 0 arguments, but got 1.
+
+    at Object.<anonymous> (/mnt/d/Jungle/match-chat-ms/src/app.ts:1:7)
+    at Module._compile (node:internal/modules/cjs/loader:1469:14)
+    at Module._compile (/mnt/d/Jungle/match-chat-ms/node_modules/source-map-support/source-map-support.js:521:25)
+    at Module.m._compile (/tmp/ts-node-dev-hook-57424800043014.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1548:10)
+    at require.extensions..jsx.require.extensions..js (/tmp/ts-node-dev-hook-57424800043014.js:114:20)
+    at require.extensions.<computed> (/tmp/ts-node-dev-hook-57424800043014.js:71:20)
+    at Object.nodeDevHook [as .ts] (/mnt/d/Jungle/match-chat-ms/node_modules/ts-node-dev/lib/hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:1288:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1104:12)
